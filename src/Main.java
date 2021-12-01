@@ -8,9 +8,7 @@ public class Main {
         if (add > 1000) {
             cashback = add / 100;
             new_balance = balance + add + cashback;
-        }
-
-        else {
+        } else {
             cashback = 0;
             new_balance = balance + add;
         }
